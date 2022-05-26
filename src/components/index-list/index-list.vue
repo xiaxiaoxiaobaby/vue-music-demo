@@ -32,7 +32,7 @@
     >
       <div class="fixed-title">{{fixedTitle}}</div>
     </div>
-    <div
+    <!-- <div
       class="shortcut"
       @touchstart.stop.prevent="onShortcutTouchStart"
       @touchmove.stop.prevent="onShortcutTouchMove"
@@ -48,7 +48,7 @@
           {{item}}
         </li>
       </ul>
-    </div>
+    </div> -->
   </scroll>
 </template>
 
